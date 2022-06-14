@@ -1,0 +1,102 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+/* HERO BACKGROUND */
+.hero {
+    background-image: url('./images/greenPink.jpg');
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+
+/* NAV */
+
+nav {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin: 1rem 1rem;
+    position: fixed;
+    top: 0;
+    width: 95%;
+}
+
+.logo {
+    font-family: 'Apparel light';
+}
+
+.logo a {
+    text-decoration: none;
+    color: #000;
+}
+
+ul {
+    display: flex;
+    justify-content: end;
+    gap: 2rem;
+}
+
+ul li {
+    text-decoration: none;
+    list-style-type: none;
+}
+
+.nav-links {
+    text-decoration: none;
+    color: black;
+    font-family: 'Apparel Bold';
+    transition: 2s;
+}
+
+.nav-links:hover {
+    color: crimson;
+}
+
+.celebrate-quote {
+    display: flex;
+    justify-content: right;
+    align-items: center;
+    min-height: 100vh;
+    font-family: 'Apparel Bold';
+}
+
+h1 {
+    font-size: 4rem;
+    color: cadetblue;
+}
+
+.green {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    min-height: 30vh;
+    padding: 2rem 2rem;
+    background-color: cadetblue;
+    font-family: 'Apparel light';
+}
+
+footer {
+    display: flex;
+    justify-content: space-between;
+    background-color: rgb(116, 169, 116);
+}
+
+.shannon a {
+    text-decoration: none;
+    color: #000;
+}
+
+@media only screen and (max-width: 600px) {
+    ul {
+        display:flex;
+        flex-direction: column;
+        gap: .2rem;
+        text-align: right;
+    }
+    .nav-links {
+        color: cadetblue;
+    }
+}
