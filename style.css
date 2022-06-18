@@ -128,7 +128,7 @@ footer {
     .celebrate-quote {
         flex-direction: column;
         height: 60vh;
-        gap: .5rem;
+        gap: .7rem;
     }
     h3 {
         font-size: 3rem;
