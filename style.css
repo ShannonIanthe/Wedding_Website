@@ -6,6 +6,7 @@
     box-sizing: border-box;
 }
 
+/* PAGE CONTAINER */
 .index-container {
     height: 100vh;
 }
@@ -21,7 +22,6 @@
 }
 
 /* NAV */
-
 nav {
     display: flex;
     flex-direction: row;
@@ -35,22 +35,13 @@ nav {
     color: rgb(100, 134, 120);
 }
 
-.logo {
-    font-family: 'Apparel light';
-}
-
-.logo a {
-    text-decoration: none;
-    color: rgb(100, 134, 120);
-}
-
-ul {
+.nav-ul {
     display: flex;
     justify-content: end;
     gap: 2rem;
 }
 
-ul li {
+.nav-ul li {
     text-decoration: none;
     list-style-type: none;
 }
@@ -59,11 +50,11 @@ ul li {
     text-decoration: none;
     color: rgb(100, 134, 120);
     font-family: 'Bad Script', cursive;
-    transition: 2s;
+    transition: 1s;
 }
 
 .nav-links:hover {
-    color: crimson;
+    color: rgb(222, 198, 100);
 }
 
 .celebrate-quote {
@@ -109,7 +100,7 @@ footer {
 }
 
 @media only screen and (max-width: 600px) {
-    ul {
+    .nav-ul {
         gap: 0.2rem;
     }
     .nav-links {
