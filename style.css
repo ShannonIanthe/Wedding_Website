@@ -119,12 +119,16 @@ footer {
         padding-top: 3.3rem;
         writing-mode: horizontal-tb;
     }
+    h4 {
+        padding-bottom: 2rem;
+    }
     .hero {
         height: 70vh;
     }
     .celebrate-quote {
         flex-direction: column;
         height: 60vh;
+        gap: .5rem;
     }
     h3 {
         font-size: 3rem;
