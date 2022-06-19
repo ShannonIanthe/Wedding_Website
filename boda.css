@@ -1,72 +1,141 @@
-@import url('https://fonts.googleapis.com/css2?family=Great+Vibes&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Bad+Script&display=swap');
-*{
-    padding: 0;
-    margin: 0;
-    box-sizing: border-box;
+@import url("https://fonts.googleapis.com/css2?family=Great+Vibes&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Bad+Script&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=Joan&display=swap');
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
 }
 
 /* NAV */
 nav {
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-    justify-content: center;
-    padding: 1rem 1rem;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  padding: 1rem 1rem;
 }
 
 .line {
-    font-size: 1.5rem;
-    color: rgb(100, 134, 120);
-}
-
-ul {
-    display: flex;
-    justify-content: end;
-    gap: 2rem;
-}
-
-ul li {
-    text-decoration: none;
-    list-style-type: none;
+  font-size: 1.5rem;
+  color: rgb(100, 134, 120);
 }
 
 .nav-links {
-    text-decoration: none;
-    color: rgb(100, 134, 120);
-    font-family: 'Bad Script', cursive;
-    transition: 1s;
+  text-decoration: none;
+  color: rgb(100, 134, 120);
+  font-family: "Bad Script", cursive;
+  transition: 1s;
 }
 
 .nav-links:hover {
-    color: rgb(222, 198, 100);
+  color: rgb(222, 198, 100);
 }
 
+/* BODA BACKGROUND IMAGE */
+.boda-background {
+    margin: 2rem 4rem;
+    background-color: rgb(240, 240, 241);
+    border-radius: 5px;
+}
+
+h6 {
+    padding-top: 2rem;
+  text-align: center;
+  font-size: 3rem;
+  color: rgb(100, 134, 120);
+  font-family: 'Joan', serif;
+}
+
+.h7 {
+    text-align: center;
+    font-size: 1rem;
+    color: rgb(100, 134, 120);
+    font-family: 'Joan', serif;
+}
+
+img {
+    width: 100%; /* or any custom size */
+    height: 100%; 
+    object-fit: contain;
+}
+
+.boda-image-div {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-top: 2rem;
+}
 
 /* BODA SECTON */
 .boda-container {
-    display: flex;
-    flex-direction: column;
-    margin: 2rem 1rem;
-    padding: 2rem 2rem;
-    border: 5px solid  rgb(222, 198, 100);
-    border-radius: 10px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
 }
 
-h1 {
+.col{
+    flex: 1;
     text-align: center;
-    font-size: 3rem;
-    color: rgb(100, 134, 120);
-    padding: 1rem;
-    font-family: 'Great Vibes', cursive;
+    background-color: rgb(100, 134, 120);
+    padding: 2rem 2rem;
+    font-family: 'Joan', serif;
+    letter-spacing: 2px;
 }
 
-.boda-ul {
+.boda-container h7 {
+  text-align: center;
+  font-size: 3rem;
+  color: rgb(100, 134, 120);
+  font-family: "Great Vibes", cursive;
+}
+
+/* TRANSPORTATION */
+.transportation-container {
     display: flex;
     flex-direction: column;
-    font-family: 'Bad Script', cursive;
+    font-family: 'Joan', serif;
 }
 
-.emphasis {
+.transportation-container p {
+    text-align: center;
+    font-size: 2rem;
+    background-color: rgb(222, 198, 100);
+    padding: 2rem 2rem;
+}
+
+.row {
+    padding: 2rem 2rem;
+    background-color: rgb(222, 198, 100);
+}
+
+.row2 {
+    background-color: rgb(215, 100, 49);
+}
+
+.row, 
+.row2 {
+    display: flex;
+    text-align: justify;
+    justify-content: space-around;
+    font-family: 'Joan', serif;
+    letter-spacing: 2px;
+}
+
+.trans-line {
+    display: inline-block;
+        border-left: 3px solid rgb(100, 134, 120);
+        margin: 0 10px;
+        height: 125px;
+}
+
+h8 {
+    text-align: center;
+    padding: 3rem;
     font-size: 1.5rem;
+}
+
+.trans-line p {
+    font-size: 12px;
 }

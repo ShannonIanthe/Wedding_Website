@@ -71,7 +71,8 @@ h2, h4 {
     writing-mode: vertical-rl;
     text-orientation: sideways;
     font-size: 1.5rem;
-    color: rgb(100, 134, 120);
+    color: rgb(247, 194, 102);
+    letter-spacing: 2px;
 }
 
 h3 {
