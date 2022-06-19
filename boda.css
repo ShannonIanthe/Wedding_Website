@@ -149,3 +149,9 @@ h8 {
 .trans-line p {
     font-size: 12px;
 }
+
+@media only screen and (max-width: 600px) {
+  .boda-background {
+    margin: 1rem 2rem;
+  }
+}
