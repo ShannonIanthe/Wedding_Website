@@ -1,0 +1,23 @@
+@import url("https://fonts.googleapis.com/css2?family=Great+Vibes&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Bad+Script&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=Joan&display=swap');
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.regalo-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 2rem 2rem;
+    margin: 2rem 4rem;
+    background-color: rgb(189, 208, 189);
+    font-family: 'Joan', serif;
+    line-height: 2rem;
+    font-size: 1.2rem;
+    text-align: center;
+}

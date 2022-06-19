@@ -40,6 +40,16 @@ nav {
     border-radius: 5px;
 }
 
+.karen-fer {
+  display: flex;
+  justify-content: space-between;
+}
+
+.flower-bg {
+  height: 5rem;
+  width: 5rem;
+}
+
 h6 {
     padding-top: 2rem;
   text-align: center;
@@ -78,7 +88,7 @@ img {
 .col{
     flex: 1;
     text-align: center;
-    background-color: rgb(100, 134, 120);
+    background-color: rgb(148, 185, 170);
     padding: 2rem 2rem;
     font-family: 'Joan', serif;
     letter-spacing: 2px;
@@ -101,13 +111,13 @@ img {
 .transportation-container p {
     text-align: center;
     font-size: 2rem;
-    background-color: rgb(222, 198, 100);
+    background-color: rgb(242, 226, 162);
     padding: 2rem 2rem;
 }
 
 .row {
     padding: 2rem 2rem;
-    background-color: rgb(222, 198, 100);
+    background-color: rgb(242, 226, 162);
 }
 
 .row2 {
