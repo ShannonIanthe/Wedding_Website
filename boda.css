@@ -104,8 +104,9 @@ img {
 
 /* GOOGLEMAP */
 iframe {
+  width: 100%; /* or any custom size */
   padding-top: 2rem;
-  margin: auto;
+
 }
 
 /* TRANSPORTATION */
@@ -144,7 +145,6 @@ iframe {
 .row, 
 .row2 {
     display: flex;
-    text-align: justify;
     justify-content: space-around;
     font-family: 'Joan', serif;
 }
