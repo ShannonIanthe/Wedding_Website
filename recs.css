@@ -1,0 +1,34 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.suances-text {
+    text-align: center;
+    padding: 1rem 1rem;
+}
+
+.distance {
+    padding: 1rem 1rem;
+}
+
+.suances-container {
+    display: flex;
+    flex-direction: row;
+}
+
+.reserva-container {
+    display: flex;
+    flex-direction: column;
+    padding: 1rem 1rem;
+}
+
+.suances-img {
+    height: 15rem;
+    width: 20rem;
+}
+
+.santillana {
+    display: flex;
+}
