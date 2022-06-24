@@ -33,9 +33,27 @@ nav {
   color: rgb(222, 198, 100);
 }
 
+.boda-wrapper {
+  display: flex;
+  justify-content: space-around;
+  gap: 2rem;
+}
+
+.side {
+  writing-mode: vertical-rl;
+  text-orientation: sideways;
+  font-size: 1.5rem;
+  color: rgb(247, 194, 102);
+  letter-spacing: 2px;
+  font-family: "Great Vibes", cursive;
+  z-index: -2;
+  position: fixed;
+  margin-top: 15rem;
+}
+
 /* BODA BACKGROUND IMAGE */
 .boda-background {
-    margin: 2rem 4rem;
+    margin: 0rem 2rem;
     background-color: rgb(240, 240, 241);
     border-radius: 5px;
 }
@@ -131,26 +149,22 @@ iframe {
 }
 
 .trans-ul {
-  padding: 2rem 2rem;
+  padding: 1rem 2rem;
 }
 
-.row {
-    padding: 2rem 2rem;
-}
-
-.row2 {
-    padding: 2rem 2rem;
-}
 
 .row, 
 .row2 {
     display: flex;
     justify-content: space-around;
     font-family: 'Joan', serif;
+    padding: 2rem 2rem;
 }
 
 .row .trans1, .trans2 {
   width: 50%;
+  display: flex;
+  flex-direction: column;
 }
 
 .row2 .trans1, .trans2 {
@@ -165,9 +179,10 @@ iframe {
         height: 15rem;
 }
 
+
 h8 {
     text-align: center;
-    padding: 3rem;
+    padding: 1rem;
     font-size: 1.5rem;
 }
 
@@ -188,16 +203,19 @@ li {
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    padding: 1.4rem 0rem;
   }
   .trans-line {
     visibility: hidden;
     height: .1rem;
   }
   .row .trans1, .trans2 {
-    width: 90%;
+    width: 100%;
+    border-radius: 0;
   }
   .row2 .trans1, .trans2 {
-    width: 90%;
+    width: 100%;
+    border-radius: 0;
   }
   h6 {
     font-size: 2.4rem;
