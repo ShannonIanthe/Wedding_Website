@@ -1,153 +1,172 @@
-@import url('https://fonts.googleapis.com/css2?family=Great+Vibes&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Bad+Script&display=swap');
-*{
-    padding: 0;
-    margin: 0;
-    box-sizing: border-box;
+@import url("https://fonts.googleapis.com/css2?family=Great+Vibes&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Bad+Script&display=swap");
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
 }
 
 /* PAGE CONTAINER */
 .index-container {
-    height: 100vh;
+  height: 100vh;
 }
 
 /* HERO BACKGROUND */
 .hero {
-    background-image: url('./images/watercolor.jpg');
-    background-size: contain;
-    background-repeat: no-repeat;
-    background-position: center;
-    height: 75vh;
-    z-index: -2;
+  background-image: url("./images/watercolor.jpg");
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+  height: 75vh;
+  z-index: -2;
 }
 
 /* NAV */
 nav {
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-    justify-content: center;
-    padding: 1rem 1rem;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  padding: 1rem 1rem;
 }
 
 .line {
-    font-size: 1.5rem;
-    color: rgb(100, 134, 120);
+  font-size: 1.5rem;
+  color: rgb(100, 134, 120);
 }
 
 .nav-ul {
-    display: flex;
-    justify-content: end;
-    gap: 2rem;
+  display: flex;
+  justify-content: end;
+  gap: 2rem;
 }
 
 .nav-ul li {
-    text-decoration: none;
-    list-style-type: none;
+  text-decoration: none;
+  list-style-type: none;
 }
 
 .nav-links {
-    text-decoration: none;
-    color: rgb(100, 134, 120);
-    font-family: 'Bad Script', cursive;
-    transition: 1s;
+  text-decoration: none;
+  color: rgb(100, 134, 120);
+  font-family: "Bad Script", cursive;
+  transition: 1s;
 }
 
 .nav-links:hover {
-    color: rgb(222, 198, 100);
+  color: rgb(222, 198, 100);
 }
 
 .celebrate-quote {
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-    align-items: center;
-    font-family: 'Great Vibes', cursive;
-    min-height: 70vh;
-    padding: 0rem 3rem;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  font-family: "Great Vibes", cursive;
+  min-height: 70vh;
+  padding: 0rem 3rem;
 }
 
-h2, h4 {
-    writing-mode: vertical-rl;
-    text-orientation: sideways;
-    font-size: 1.5rem;
-    color: rgb(247, 194, 102);
-    letter-spacing: 2px;
+h2,
+h4 {
+  writing-mode: vertical-rl;
+  text-orientation: sideways;
+  font-size: 1.5rem;
+  color: rgb(247, 194, 102);
+  letter-spacing: 2px;
 }
 
 h3 {
-    font-size: 4rem;
-    color: rgb(100, 134, 120);
+  font-size: 4rem;
+  color: rgb(100, 134, 120);
 }
 
 h5 {
-    text-align: center;
-    font-size: 2rem;
-    font-weight: 100;
-    color: rgb(100, 134, 120);
-    font-family: 'Bad Script', cursive;
+  text-align: center;
+  font-size: 2rem;
+  font-weight: 100;
+  color: rgb(100, 134, 120);
+  font-family: "Bad Script", cursive;
 }
 
-
 footer {
-    display: flex;
-    justify-content: space-between;
-    background-color: rgb(116, 169, 116);
+  display: flex;
+  justify-content: space-between;
+  background-color: rgb(116, 169, 116);
 }
 
 .shannon a {
-    text-decoration: none;
-    color: #000;
+  text-decoration: none;
+  color: #000;
+}
+
+/* RSVP PAGE */
+.rsvp-container {
+    height: 80vh;
+    background-color: rgb(148, 185, 170);
 }
 
 
-/* RSVP PAGE */
-
 .rsvp-h1 {
-    text-align: center;
-    padding: 2rem 2rem;
+    font-family: "Bad Script", cursive;
+  text-align: center;
+  padding: 2rem 2rem;
 }
 
 .form {
-    margin: 2rem 2rem;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    gap: 2rem;
+  margin: 2rem 2rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 2rem;
+}
+
+input {
+color: rgb(33, 33, 33);
+  font-size: 1rem;
+  border: 0;
+  outline: 0;
+  background: transparent;
+  border-bottom: 2px solid black;
+  font-family: 'Libre Baskerville', serif;
 }
 
 
+.form-name-container {
+  padding: 1rem 1rem;
+}
 
 @media only screen and (max-width: 600px) {
-    .nav-ul {
-        gap: 0.2rem;
-    }
-    .nav-links {
-        color: cadetblue;
-    }
-    h2, h4 {
-        padding-top: 3.3rem;
-        writing-mode: horizontal-tb;
-    }
-    h4 {
-        padding-bottom: 2rem;
-    }
-    .hero {
-        height: 70vh;
-    }
-    .celebrate-quote {
-        flex-direction: column;
-        height: 60vh;
-        gap: 3.5rem;
-    }
-    h3 {
-        font-size: 3rem;
-    }
-    h5{
-        font-size: 1.5rem;
-        padding-right: 2rem;
-        padding-left: 2rem;
-        padding-bottom: 4rem;
-    }
+  .nav-ul {
+    gap: 0.2rem;
+  }
+  .nav-links {
+    color: cadetblue;
+  }
+  h2,
+  h4 {
+    padding-top: 3.3rem;
+    writing-mode: horizontal-tb;
+  }
+  h4 {
+    padding-bottom: 2rem;
+  }
+  .hero {
+    height: 70vh;
+  }
+  .celebrate-quote {
+    flex-direction: column;
+    height: 60vh;
+    gap: 3.5rem;
+  }
+  h3 {
+    font-size: 3rem;
+  }
+  h5 {
+    font-size: 1.5rem;
+    padding-right: 2rem;
+    padding-left: 2rem;
+    padding-bottom: 4rem;
+  }
 }

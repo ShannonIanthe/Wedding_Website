@@ -75,6 +75,7 @@ h13 {
 }
 
 h14 {
+    text-align: center;
     font-family: "Bad Script", cursive;
     font-style: italic;
     font-size: 1.4rem;
@@ -160,6 +161,9 @@ button:hover {
 
 
 @media only screen and (max-width: 900px) {
+    .suances-background {
+        margin: .4rem 1rem;
+    }
     .suances {
         display: flex;
         flex-direction: column;
@@ -182,4 +186,11 @@ button:hover {
         display: flex;
         flex-direction: column;
     }
+    .suances-text h1 {
+        font-size: 2.4rem;
+    }
+    .reserva-container p {
+        padding: 1rem 1rem;
+    }
+
 }
