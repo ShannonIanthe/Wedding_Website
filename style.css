@@ -71,14 +71,21 @@ h2,
 h4 {
   writing-mode: vertical-rl;
   text-orientation: sideways;
-  font-size: 1.5rem;
   color: rgb(247, 194, 102);
   letter-spacing: 2px;
+}
+
+h2 {
+  font-size: 1.5rem;
 }
 
 h3 {
   font-size: 4rem;
   color: rgb(100, 134, 120);
+}
+
+h4 {
+  font-size: 1.5rem;
 }
 
 h5 {
@@ -159,7 +166,7 @@ input {
   }
   h2,
   h4 {
-    padding-top: 3.3rem;
+    padding-top: 2rem;
     writing-mode: horizontal-tb;
   }
   h4 {
@@ -172,6 +179,9 @@ input {
     flex-direction: column;
     height: 60vh;
     gap: 3.5rem;
+  }
+  h2{
+    font-size: 2rem;
   }
   h3 {
     font-size: 3rem;
@@ -188,5 +198,8 @@ input {
       justify-content: center;
       align-items: center;
       gap: 1rem;
+  }
+  .celebrate-quote {
+    padding: 0rem 0rem;
   }
 }
