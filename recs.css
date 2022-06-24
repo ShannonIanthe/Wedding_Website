@@ -15,6 +15,13 @@
     background-color: rgb(240, 240, 241);
 }
 
+.suances-text {
+    text-align: center;
+    font-family: "Bad Script", cursive;
+    background-color: rgb(253, 246, 235);
+    padding: 2rem 2rem;
+}
+
 .suances-text h1 {
     color: rgb(138, 111, 63);
     padding: 2rem 0rem;
@@ -23,17 +30,9 @@
     font-family: 'Joan', serif;
 }
 
-.suances-text {
-    text-align: center;
-    font-family: "Bad Script", cursive;
-    background-color: rgb(253, 246, 235);
-    padding: 1rem 4rem;
-}
-
 .suances-text p {
     font-size: 1.7rem;
     color: rgb(138, 111, 63);
-    padding-bottom: 4rem;
 }
 
 .distance {
@@ -45,8 +44,7 @@
 }
 
 .distance-ul {
-    font-size: 1.3rem;
-    padding-top: 1rem;
+    font-size: 1rem;
     padding-left: 2rem;
     text-align: left;
     color: rgb(21, 36, 23);
@@ -56,7 +54,7 @@
 h10 {
     text-align: center;
     padding: 1rem 0rem;
-    font-size: 1.7rem;
+    font-size: 1.3rem;
     color: rgb(35, 35, 35);
     letter-spacing: 1px;
 }
@@ -118,10 +116,14 @@ li {
 }
 
 .santander-img {
-    height: 20rem;
-    width: 20rem;
+    height: 16rem;
+    width: 15rem;
 }
 
+.santander1-img {
+    height: 14rem;
+    width: 15rem;
+}
 .santillana {
     display: flex;
 }
@@ -142,6 +144,7 @@ button {
     background-color: rgb(138, 111, 63);
     border: none;
     border-radius: 3px;
+    transition: 1s;
 }
 
 button a {
@@ -149,6 +152,10 @@ button a {
     font-family: 'Libre Baskerville', serif;
     font-size: 1.1rem;
     text-decoration: none;
+}
+
+button:hover {
+    transform: scale(1.1);
 }
 
 
