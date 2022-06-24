@@ -36,7 +36,6 @@ nav {
 .boda-wrapper {
   display: flex;
   justify-content: space-around;
-  gap: 2rem;
 }
 
 .side {
@@ -46,7 +45,6 @@ nav {
   color: rgb(247, 194, 102);
   letter-spacing: 2px;
   font-family: "Great Vibes", cursive;
-  z-index: -2;
   position: fixed;
   margin-top: 8rem;
 }
@@ -56,6 +54,7 @@ nav {
     margin: 1rem 2rem;
     background-color: rgb(240, 240, 241);
     border-radius: 5px;
+    margin: 5rem;
 }
 
 .karen-fer {
