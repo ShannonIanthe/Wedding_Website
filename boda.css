@@ -41,9 +41,9 @@ nav {
 .side {
   writing-mode: vertical-rl;
   text-orientation: sideways;
-  font-size: 1.5rem;
+  font-size: 2rem;
   color: rgb(247, 194, 102);
-  letter-spacing: 2px;
+  letter-spacing: 1px;
   font-family: "Great Vibes", cursive;
   position: fixed;
   margin-top: 8rem;
@@ -68,7 +68,6 @@ nav {
 }
 
 h6 {
-  padding: 1.5rem;
   text-align: center;
   font-size: 4rem;
   color: rgb(100, 134, 120);
@@ -195,7 +194,7 @@ li {
 
 @media only screen and (max-width: 600px) {
   .boda-background {
-    margin: 1rem 2rem;
+    margin: 1.2rem 2rem;
   }
   .row, .row2 {
     display: flex;
