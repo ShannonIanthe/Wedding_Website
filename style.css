@@ -102,13 +102,12 @@ footer {
 
 /* RSVP PAGE */
 .rsvp-container {
-    height: 80vh;
-    background-color: rgb(148, 185, 170);
+  height: 90vh;
+  background-color: rgb(148, 185, 170);
 }
 
-
 .rsvp-h1 {
-    font-family: "Bad Script", cursive;
+  font-family: "Bad Script", cursive;
   text-align: center;
   padding: 2rem 2rem;
 }
@@ -123,18 +122,32 @@ footer {
 }
 
 input {
-color: rgb(33, 33, 33);
+  color: rgb(33, 33, 33);
   font-size: 1rem;
   border: 0;
   outline: 0;
   background: transparent;
   border-bottom: 2px solid black;
-  font-family: 'Libre Baskerville', serif;
+  font-family: "Libre Baskerville", serif;
 }
-
 
 .form-name-container {
   padding: 1rem 1rem;
+}
+
+.button1 {
+    padding: .3rem .5rem;
+    border-radius: 3px;
+    border: none;
+    font-size: .8rem;
+    font-family: "Libre Baskerville", serif;
+}
+
+.contact-us {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    padding: 2rem;
 }
 
 @media only screen and (max-width: 600px) {
@@ -168,5 +181,12 @@ color: rgb(33, 33, 33);
     padding-right: 2rem;
     padding-left: 2rem;
     padding-bottom: 4rem;
+  }
+  .form-name-container {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      gap: 1rem;
   }
 }
