@@ -1,6 +1,8 @@
 @import url("https://fonts.googleapis.com/css2?family=Great+Vibes&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Bad+Script&display=swap");
 @import url('https://fonts.googleapis.com/css2?family=Joan&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Libre+Baskerville&display=swap');
 
 *{
     margin: 0;
@@ -14,15 +16,24 @@
 }
 
 .suances-text h1 {
-    padding: 1rem 0rem;
-    font-family: "Bad Script", cursive;
+    color: rgb(138, 111, 63);
+    padding: 2rem 0rem;
+    font-size: 4rem;
+    font-weight: 200;
+    font-family: 'Joan', serif;
 }
 
 .suances-text {
     text-align: center;
-    padding: 10rem 7rem;
     font-family: "Bad Script", cursive;
-    background-color: antiquewhite;
+    background-color: rgb(253, 246, 235);
+    padding: 1rem 4rem;
+}
+
+.suances-text p {
+    font-size: 1.7rem;
+    color: rgb(138, 111, 63);
+    padding-bottom: 4rem;
 }
 
 .distance {
@@ -33,16 +44,43 @@
     font-family: 'Joan', serif;
 }
 
-h13 {
-    text-align: center;
-    padding-bottom: 2rem;
-    color: #000;
-    font-size: 2rem;
+.distance-ul {
+    font-size: 1.3rem;
+    padding-top: 1rem;
+    padding-left: 2rem;
+    text-align: left;
+    color: rgb(21, 36, 23);
+    letter-spacing: 1px;
 }
 
 h10 {
+    text-align: center;
     padding: 1rem 0rem;
-    font-size: 1.5rem;
+    font-size: 1.7rem;
+    color: rgb(35, 35, 35);
+    letter-spacing: 1px;
+}
+
+h11 {
+    font-style: italic;
+    text-align: center;
+    padding: 1rem 0rem;
+    font-size: 1.3rem;
+    color: rgb(75, 112, 75);
+}
+
+h13 {
+    text-align: center;
+    padding-bottom: 2rem;
+    color: rgb(138, 111, 63);
+    font-size: 3rem;
+}
+
+h14 {
+    font-family: "Bad Script", cursive;
+    font-style: italic;
+    font-size: 1.4rem;
+    font-weight: 700;
 }
 
 li {
@@ -54,7 +92,7 @@ li {
     flex-direction: column;
     padding: 2rem 1rem;
     margin: 4rem 0rem;
-    background-color: rgb(100, 134, 120);
+    background-color: rgb(253, 246, 235);
     border-radius: 5px;
 }
 
@@ -64,12 +102,23 @@ li {
 
 .reserva-container {
     display: flex;
+    align-items: center;
     flex-direction: column;
     padding: 1rem 1rem;
 }
 
+.reserva-container p {
+    padding: 1rem 4rem;
+    text-align: justify;
+    font-family: 'Roboto Condensed', sans-serif;
+}
 .suances-img {
-    height: 15rem;
+    height: 13rem;
+    width: 17rem;
+}
+
+.santander-img {
+    height: 20rem;
     width: 20rem;
 }
 
@@ -86,12 +135,20 @@ li {
 }
 
 button {
+    margin: 1rem 0rem;
+    padding: .5rem 0rem;
+    width: 10rem;
     cursor: pointer;
+    background-color: rgb(138, 111, 63);
+    border: none;
+    border-radius: 3px;
 }
 
 button a {
+    color: #fff;
+    font-family: 'Libre Baskerville', serif;
+    font-size: 1.1rem;
     text-decoration: none;
-    font-family: "Bad Script", cursive;
 }
 
 
@@ -100,7 +157,21 @@ button a {
         display: flex;
         flex-direction: column;
     }
+    .suances-text {
+        padding: 1rem 1rem;
+    }
+    .suances-text p{
+        font-size: 1.3rem;
+    }
     .santillana {
+        display: flex;
+        flex-direction: column;
+    }
+    .mijares {
+        display: flex;
+        flex-direction: column;
+    }
+    .santander {
         display: flex;
         flex-direction: column;
     }
