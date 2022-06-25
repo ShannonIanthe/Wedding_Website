@@ -1,5 +1,8 @@
 @import url("https://fonts.googleapis.com/css2?family=Great+Vibes&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Bad+Script&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=Joan&display=swap');
+
+
 * {
   padding: 0;
   margin: 0;
@@ -111,6 +114,7 @@ footer {
 .rsvp-container {
   margin: 0rem 3rem;
   background-color: rgb(189, 208, 189);
+  height: 100vh;
 }
 
 .rsvp-h1 {
@@ -152,19 +156,27 @@ input {
 
 .contact-us {
     display: flex;
+    flex-direction: column;
+    text-align: center;
     align-items: center;
     justify-content: space-between;
-    padding: 1rem;
+    padding-top: 1rem;
+}
+
+.contact {
+  padding-top: 4rem;
+}
+
+h10 {
+  font-style: italic;
+  font-family: "Bad Script", cursive;
 }
 
 .contact-us p {
-  font-size: 12px;
+  font-size: 15px;
+  font-family: 'Courier New', Courier, monospace;
 }
 
-.r-line {
-  width: 2rem;
-  border-bottom: 1px solid rgb(52, 92, 52);
-}
 
 
 @media only screen and (max-width: 600px) {
