@@ -109,8 +109,8 @@ footer {
 
 /* RSVP PAGE */
 .rsvp-container {
-  height: 90vh;
-  background-color: rgb(148, 185, 170);
+  margin: 0rem 3rem;
+  background-color: rgb(189, 208, 189);
 }
 
 .rsvp-h1 {
@@ -143,19 +143,29 @@ input {
 }
 
 .button1 {
-    padding: .3rem .5rem;
+    padding: .5rem 1rem;
     border-radius: 3px;
     border: none;
-    font-size: .8rem;
+    font-size: .9rem;
     font-family: "Libre Baskerville", serif;
 }
 
 .contact-us {
     display: flex;
     align-items: center;
-    justify-content: space-around;
-    padding: 2rem;
+    justify-content: space-between;
+    padding: 1rem;
 }
+
+.contact-us p {
+  font-size: 12px;
+}
+
+.r-line {
+  width: 2rem;
+  border-bottom: 1px solid rgb(52, 92, 52);
+}
+
 
 @media only screen and (max-width: 600px) {
   .nav-ul {
