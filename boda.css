@@ -51,11 +51,17 @@ nav {
 
 /* BODA BACKGROUND */
 .boda-background {
-    margin: 1rem 2rem;
+    margin: 1.2rem 2rem;
     background-color: rgb(240, 240, 241);
     border-radius: 5px;
     margin: 5rem;
 }
+
+.accordion {
+  margin: 1.2rem 4rem;
+}
+
+
 
 .karen-fer {
   display: flex;
@@ -67,9 +73,9 @@ nav {
   width: 5rem;
 }
 
-h6 {
+.karfer {
   text-align: center;
-  font-size: 4rem;
+  font-size: 2rem;
   color: rgb(100, 134, 120);
   font-family: 'Joan', serif;
   font-weight: 300;
@@ -111,6 +117,11 @@ img {
     letter-spacing: 2px;
 }
 
+.p {
+  font-size: 1.5rem;
+
+}
+
 .boda-container h7 {
   text-align: center;
   font-size: 3rem;
@@ -126,48 +137,20 @@ iframe {
 }
 
 /* TRANSPORTATION */
-.transportation-container {
-    display: flex;
-    flex-direction: column;
-    font-family: 'Joan', serif;
+.transportation-title {
+  text-align: center;
+  padding: 2rem 0rem;
+  font-family: 'Joan', serif;
 }
 
-.transportation-container p {
-    text-align: center;
-    font-size: 2rem;
-    font-weight: 200;
-    padding-top: 2rem;
-    font-family: 'Joan', serif;
-}
-
-.trans1,
-.trans2 {
-  background-color: rgb(148, 185, 170);
-  border-radius: 5px;
+.accordion-button {
+  width: 70%;
 }
 
 .trans-ul {
   padding: 1rem 2rem;
 }
 
-
-.row, 
-.row2 {
-    display: flex;
-    justify-content: space-around;
-    font-family: 'Joan', serif;
-    padding: 2rem 2rem;
-}
-
-.row .trans1, .trans2 {
-  width: 50%;
-  display: flex;
-  flex-direction: column;
-}
-
-.row2 .trans1, .trans2 {
-  width: 50%;
-}
 
 .trans-line {
         display: inline-block;
@@ -196,24 +179,8 @@ li {
   .boda-background {
     margin: 1.2rem 2rem;
   }
-  .row, .row2 {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    padding: 1.4rem 0rem;
-  }
-  .trans-line {
-    visibility: hidden;
-    height: .1rem;
-  }
-  .row .trans1, .trans2 {
-    width: 100%;
-    border-radius: 0;
-  }
-  .row2 .trans1, .trans2 {
-    width: 100%;
-    border-radius: 0;
+  .accordion {
+    margin: 1.2rem 2rem;
   }
   .side {
     font-size: 1rem;
