@@ -115,6 +115,11 @@ li {
     display: flex;
 }
 
+/* MAP */
+.iframe {
+    text-align: center;
+}
+
 .reserva-container {
     display: flex;
     align-items: center;
