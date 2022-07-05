@@ -1,0 +1,131 @@
+
+@import url("https://fonts.googleapis.com/css2?family=Great+Vibes&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Bad+Script&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=Joan&display=swap');
+
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+/* NAV */
+nav {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    padding: 1rem 1rem;
+  }
+  
+  .line {
+    font-size: 1.5rem;
+    color: rgb(100, 134, 120);
+  }
+  
+  .nav-ul {
+    display: flex;
+    justify-content: end;
+    gap: 2rem;
+  }
+  
+  .nav-ul li {
+    text-decoration: none;
+    list-style-type: none;
+  }
+  
+  .nav-links {
+    text-decoration: none;
+    color: rgb(100, 134, 120);
+    font-family: "Bad Script", cursive;
+    transition: 1s;
+  }
+  
+  .nav-links:hover {
+    color: rgb(222, 198, 100);
+  }
+  
+  /*/*//*/*/
+
+
+
+
+/* RSVP PAGE */
+.rsvp-container {
+    margin: 0rem 3rem;
+    background-color: rgb(189, 208, 189);
+  }
+  
+  .rsvp-h1 {
+    font-family: "Bad Script", cursive;
+    text-align: center;
+    padding: 2rem 2rem;
+  }
+  
+  .form {
+    margin: 2rem 2rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 2rem;
+  }
+  
+  input {
+    color: rgb(33, 33, 33);
+    font-size: 1rem;
+    border: 0;
+    outline: 0;
+    background: transparent;
+    border-bottom: 2px solid black;
+    font-family: "Libre Baskerville", serif;
+  }
+  
+  .form-name-container {
+    padding: 1rem 1rem;
+  }
+  
+  .button1 {
+      padding: .5rem 1rem;
+      border-radius: 3px;
+      border: none;
+      font-size: .9rem;
+      font-family: "Libre Baskerville", serif;
+  }
+  
+  .contact-us {
+      display: flex;
+      flex-direction: column;
+      text-align: center;
+      align-items: center;
+      justify-content: space-between;
+      padding-top: 1rem;
+  }
+  
+  .contact {
+    padding-top: 4rem;
+  }
+  h5 {
+      text-align: center;
+      font-size: 1.4rem;
+  }
+  
+  h10 {
+    font-style: italic;
+    font-family: "Bad Script", cursive;
+  }
+  
+  .contact-us p {
+    font-size: 15px;
+    font-family: 'Courier New', Courier, monospace;
+  }
+
+
+  @media only screen and (max-width: 600px) {
+  .nav-ul {
+    gap: 0.9rem;
+  }
+}
+  
+  

@@ -10,6 +10,43 @@
     box-sizing: border-box;
 }
 
+/* NAV */
+nav {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    padding: 1rem 1rem;
+  }
+  
+  .line {
+    font-size: 1.5rem;
+    color: rgb(100, 134, 120);
+  }
+  
+  .nav-ul {
+    display: flex;
+    justify-content: end;
+    gap: 2rem;
+  }
+  
+  .nav-ul li {
+    text-decoration: none;
+    list-style-type: none;
+  }
+  
+  .nav-links {
+    text-decoration: none;
+    color: rgb(100, 134, 120);
+    font-family: "Bad Script", cursive;
+    transition: 1s;
+  }
+  
+  .nav-links:hover {
+    color: rgb(222, 198, 100);
+  }
+/*NAV END */
+
 .suances-background {
     margin: 1rem 3rem;
     background-color: rgb(240, 240, 241);
@@ -84,6 +121,7 @@ h11 {
 }
 
 h13 {
+    font-family: "Bad Script", cursive;
     text-align: center;
     padding-bottom: 2rem;
     color: rgb(75, 112, 75);
@@ -117,8 +155,21 @@ li {
 
 /* MAP */
 .iframe {
-    text-align: center;
+    position: relative;
+    overflow: hidden;
+    width: 100%;
+    padding-top: 56.25%;
 }
+
+iframe {
+    position: absolute;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    width: 100%;
+    height: 100%;
+  }
 
 .reserva-container {
     display: flex;
@@ -158,6 +209,7 @@ li {
     display: flex;
 }
 
+
 button {
     margin: 1rem 0rem;
     padding: .5rem 0rem;
@@ -180,7 +232,11 @@ button:hover {
     transform: scale(1.1);
 }
 
+
 @media only screen and (max-width: 900px) {
+    .nav-ul {
+        gap: 0.2rem;
+      }
     .suances-background {
         margin: .4rem 1rem;
     }

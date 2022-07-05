@@ -8,6 +8,45 @@
     box-sizing: border-box;
 }
 
+
+/* NAV */
+nav {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  padding: 1rem 1rem;
+}
+
+.line {
+  font-size: 1.5rem;
+  color: rgb(100, 134, 120);
+}
+
+.nav-ul {
+  display: flex;
+  justify-content: end;
+  gap: 2rem;
+}
+
+.nav-ul li {
+  text-decoration: none;
+  list-style-type: none;
+}
+
+.nav-links {
+  text-decoration: none;
+  color: rgb(100, 134, 120);
+  font-family: "Bad Script", cursive;
+  transition: 1s;
+}
+
+.nav-links:hover {
+  color: rgb(222, 198, 100);
+}
+
+/*/*//*/*/
+
 h9 {
   font-size: 2rem;
   color: rgb(52, 92, 52);
@@ -43,6 +82,9 @@ h9 {
 }
 
 @media only screen and (max-width: 600px) {
+  .nav-ul {
+    gap: 0.2rem;
+  }
     .regalo-container {
       margin: 1rem 2rem;
       line-height: 2rem;

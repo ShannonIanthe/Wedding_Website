@@ -22,6 +22,17 @@ nav {
   color: rgb(100, 134, 120);
 }
 
+.nav-ul {
+  display: flex;
+  justify-content: end;
+  gap: 2rem;
+}
+
+.nav-ul li {
+  text-decoration: none;
+  list-style-type: none;
+}
+
 .nav-links {
   text-decoration: none;
   color: rgb(100, 134, 120);
@@ -32,6 +43,8 @@ nav {
 .nav-links:hover {
   color: rgb(222, 198, 100);
 }
+
+/*/*//*/*/
 
 .boda-wrapper {
   display: flex;
@@ -176,6 +189,9 @@ li {
 }
 
 @media only screen and (max-width: 600px) {
+  .nav-ul {
+    gap: 0.2rem;
+  }
   .boda-background {
     margin: 1.2rem 2rem;
   }
