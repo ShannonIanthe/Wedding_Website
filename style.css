@@ -88,7 +88,7 @@ h3 {
   font-size: clamp(3rem, 2.5vw, 4rem); 
   color: rgb(100, 134, 120);
   border: .2rem solid rgb(100, 134, 120);
-  padding: 8rem 8rem;
+  padding: 8rem 5rem;
 }
 
 h4 {
