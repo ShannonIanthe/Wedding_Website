@@ -174,10 +174,10 @@ iframe {
 
 .trans-line {
         display: inline-block;
-        border-left: 2px solid rgb(100, 134, 120);
-        margin: 0px 10px;
+        border-left: 1px solid rgb(100, 134, 120);
+        margin: 0px 5px;
         margin-top: 7rem;
-        height: 15rem;
+        height: 10rem;
 }
 
 
@@ -197,12 +197,11 @@ li {
 
 @media only screen and (max-width: 600px) {
   .nav-ul {
-    gap: 0.2rem;
+    gap: 0px;
   }
   .boda-background {
     margin: .2rem 2rem;
   }
-
   .side {
     font-size: 1.4rem;
   }
