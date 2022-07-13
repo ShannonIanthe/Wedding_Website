@@ -87,7 +87,11 @@ h9 {
 
 @media only screen and (max-width: 600px) {
   .nav-ul {
-    gap: 0.9rem;
+    gap: .5rem;
+  }
+  .nav-links {
+    font-size: 1.3rem;
+    color: cadetblue;
   }
     .regalo-container {
       margin: 1rem 2rem;

@@ -12,11 +12,11 @@ nav {
   flex-direction: row;
   align-items: center;
   justify-content: center;
-  padding: 1rem 3rem;
+  padding: 1rem 1rem;
 }
 
 .line {
-  font-size: 1.3rem;
+  font-size: 1.5rem;
   color: rgb(100, 134, 120);
 }
 
@@ -205,7 +205,11 @@ li {
 
 @media only screen and (max-width: 600px) {
   .nav-ul {
-    gap: 0px;
+    gap: .5rem;
+  }
+  .nav-links {
+    font-size: 1.3rem;
+    color: cadetblue;
   }
   .boda-background {
     margin: .2rem 2rem;
