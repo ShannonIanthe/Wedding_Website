@@ -117,13 +117,11 @@ footer {
 
 
 @media only screen and (max-width: 600px) {
-  nav {
-    margin: 0rem 4rem;
-  }
   .nav-ul {
-    gap: 0.2rem;
+    gap: .5rem;
   }
   .nav-links {
+    font-size: 1.3rem;
     color: cadetblue;
   }
   h2,
@@ -132,14 +130,14 @@ footer {
     writing-mode: horizontal-tb;
   }
   h4 {
-    padding-bottom: 2rem;
+    padding-bottom: 5rem;
   }
   .hero {
     height: 60vh;
   }
   .celebrate-quote {
     flex-direction: column;
-    height: 70vh;
+    height: 50vh;
     gap: 3.5rem;
   }
   h2{
