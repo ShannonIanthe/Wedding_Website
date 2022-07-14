@@ -124,6 +124,11 @@ nav {
     font-family: 'Montserrat', sans-serif;
   }
 
+  .kar,
+  .fer {
+    line-height: 1.4rem;
+  }
+
 
   @media only screen and (max-width: 600px) {
     .nav-ul {
