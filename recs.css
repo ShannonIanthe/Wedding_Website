@@ -103,6 +103,13 @@ nav {
     width: 70%;
 }
 
+h4 {
+    text-align: center;
+    font-size: 4rem;
+    font-family: 'Cormorant', serif;
+    font-style: bold;
+}
+
 h5 {
     text-align: center;
     font-size: 3rem;
