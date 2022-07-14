@@ -1,8 +1,4 @@
 
-@import url("https://fonts.googleapis.com/css2?family=Great+Vibes&display=swap");
-@import url("https://fonts.googleapis.com/css2?family=Bad+Script&display=swap");
-@import url('https://fonts.googleapis.com/css2?family=Joan&display=swap');
-
 @import url('https://fonts.googleapis.com/css2?family=Cormorant:ital,wght@0,300;0,600;0,700;1,300&family=Montserrat:wght@200&family=Roboto:wght@100&display=swap');
 
 * {
@@ -82,7 +78,7 @@ nav {
     outline: 0;
     background: transparent;
     border-bottom: 2px solid black;
-    font-family: "Libre Baskerville", serif;
+    font-family: 'Montserrat', sans-serif;
   }
   
   .form-name-container {
@@ -94,8 +90,10 @@ nav {
       border-radius: 3px;
       border: none;
       font-size: .9rem;
-      font-family: "Libre Baskerville", serif;
-  }
+      font-family: 'Montserrat', sans-serif;
+      font-style: bold;
+      font-weight: 600;
+    }
   
   .contact-us {
       display: flex;
@@ -110,18 +108,20 @@ nav {
     padding-top: 4rem;
   }
   h5 {
+      font-family: 'Cormorant', serif;
       text-align: center;
-      font-size: 1.4rem;
+      font-size: 2rem;
   }
   
   h10 {
-    font-style: italic;
-    font-family: "Bad Script", cursive;
+    font-size: 1.1rem;
+    font-family: 'Montserrat', sans-serif;
+    font-style: bold;
   }
   
   .contact-us p {
     font-size: 15px;
-    font-family: 'Courier New', Courier, monospace;
+    font-family: 'Montserrat', sans-serif;
   }
 
 
