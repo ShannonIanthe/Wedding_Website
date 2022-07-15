@@ -74,7 +74,7 @@ h4 {
   writing-mode: vertical-rl;
   text-orientation: sideways;
   color: rgb(247, 194, 102);
-  letter-spacing: 1.1px;
+  letter-spacing: 1px;
   font-family: 'Montserrat', sans-serif;
   text-transform: uppercase;
 }
@@ -126,7 +126,7 @@ footer {
   }
   h2,
   h4 {
-    padding-top: 1rem;
+    padding-top: 2rem;
     writing-mode: horizontal-tb;
   }
   h4 {
@@ -138,10 +138,10 @@ footer {
   .celebrate-quote {
     flex-direction: column;
     height: 50vh;
-    gap: 3.5rem;
+    gap: 2rem;
   }
   h2{
-    font-size: 1.2rem;
+    font-size: 1rem;
   }
   h3 {
     padding: 6rem 4rem;
