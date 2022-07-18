@@ -5,13 +5,11 @@
   box-sizing: border-box;
 }
 
+/* BODY BACKGROUND */
 body {
-  background-image: url('./images/index_bg.jpg');
-}
+  background: url('./images/index_bg.jpg') fixed 50%;
+  background-size: cover;
 
-/* PAGE CONTAINER */
-.index-container {
-  height: 10vh;
 }
 
 
@@ -21,7 +19,8 @@ nav {
   flex-direction: row;
   align-items: center;
   justify-content: center;
-  padding: 1rem 1rem;
+  padding: .6rem 1rem;
+  background-color: #fff;
 }
 
 .line {
@@ -53,21 +52,25 @@ nav {
   color: rgb(222, 198, 100);
 }
 
-/*/*//*/*/
+/*/*/
+
+.hero {
+  height: 60vh;
+}
+
+
+/*/*/
 
 .celebrate-quote {
   display: flex;
-  flex-direction: row;
-  justify-content: space-between;
+  flex-direction: column;
+  justify-content: center;
   align-items: center;
-  min-height: 10vh;
-  padding: 0rem 3rem;
+  min-height: 90vh;
 }
 
-h2,
+h3,
 h4 {
-  writing-mode: vertical-rl;
-  text-orientation: sideways;
   color: rgb(247, 194, 102);
   letter-spacing: 1px;
   font-family: 'Montserrat', sans-serif;
@@ -77,11 +80,9 @@ h4 {
 }
 
 
-h3 {
+h2 {
   font-size: clamp(3rem, 2.5vw, 4rem); 
   color: rgb(100, 134, 120);
-  border: .2rem solid rgb(100, 134, 120);
-  padding: 10rem 18rem;
   font-family: 'Cormorant', serif;
 }
 
@@ -111,6 +112,9 @@ footer {
 
 
 @media only screen and (max-width: 600px) {
+  body {
+    background-size: covers;
+  }
   .nav-ul {
     gap: .5rem;
   }
@@ -118,25 +122,21 @@ footer {
     font-size: 1.3rem;
     color: cadetblue;
   }
-  h2,
+  h3,
   h4 {
     font-size: .9rem;
-    padding-top: 2rem;
-    writing-mode: horizontal-tb;
   }
-  h4 {
-    padding-bottom: 5rem;
-  }
+
   .hero {
     height: 60vh;
   }
   .celebrate-quote {
+    align-items: center;
     flex-direction: column;
+    gap: .5rem;
     height: 50vh;
-    gap: 2rem;
   }
-  h3 {
-    padding: 6rem 4rem;
+  h2 {
     font-size: 3rem;
   }
   h5 {
@@ -149,7 +149,7 @@ footer {
       display: flex;
       flex-direction: column;
       justify-content: center;
-      align-items: center;
+      align-items: flex-end;
       gap: 1rem;
   }
   .celebrate-quote {
