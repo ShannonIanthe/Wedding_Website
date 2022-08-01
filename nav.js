@@ -7,7 +7,6 @@ const createNav = () => {
           <ul class="nav-ul">
             <li><a class="nav-links" href="index.html">K & F</a></li><span class="line">|</span> 
             <li><a class="nav-links" href="boda.html">Boda</a></li><span class="line">|</span>
-            <li><a class="nav-links" href="recs.html">Info</a></li><span class="line">|</span>
             <li><a class="nav-links" href="regalo.html">Regalo</a></li><span class="line">|</span>
             <li><a class="nav-links" href="rsvp.html">RSVP</a></li>
           </ul>
