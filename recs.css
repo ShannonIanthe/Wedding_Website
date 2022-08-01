@@ -6,6 +6,10 @@
     box-sizing: border-box;
 }
 
+.carousel-control-prev {
+    color: black;
+}
+
 /* NAV */
 nav {
     display: flex;
