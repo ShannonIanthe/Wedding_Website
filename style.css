@@ -140,7 +140,7 @@ footer {
   }
 
   .hero {
-    height: 68vh;
+    height: 60vh;
   }
   .celebrate-quote {
     align-items: center;
@@ -155,7 +155,7 @@ footer {
     font-size: 1.8rem;
     padding-right: 2rem;
     padding-left: 2rem;
-    padding-top: 5rem;
+    padding-top: 8rem;
   }
   .form-name-container {
       display: flex;
@@ -166,5 +166,8 @@ footer {
   }
   .celebrate-quote {
     padding: 0rem 0rem;
+  }
+  img {
+    margin: 2rem 0rem
   }
 }
