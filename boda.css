@@ -51,17 +51,6 @@ nav {
   justify-content: space-around;
 }
 
-.side {
-  writing-mode: vertical-rl;
-  text-orientation: sideways;
-  font-size: 2.3rem;
-  color: rgb(247, 194, 102);
-  letter-spacing: 1px;
-  font-family: 'Cormorant', serif;
-  font-style: italic;
-  position: fixed;
-  margin-top: 8rem;
-}
 
 /* BODA BACKGROUND */
 .boda-background {
@@ -94,7 +83,7 @@ nav {
 h7 {
   font-family: 'Montserrat', sans-serif;
   font-weight: 700;
-  font-size: 1.3rem;
+  font-size: 1.2rem;
 }
 
 .flower-bg {
@@ -192,7 +181,7 @@ iframe {
 h8 {
     text-align: center;
     padding-top: 2rem;
-    font-size: 2rem;
+    font-size: 1.7rem;
     font-weight: bolder;
     font-family: 'Cormorant', serif;
 }
@@ -291,10 +280,10 @@ h5 {
   .boda-background {
     margin: .2rem 2rem;
   }
-  .side {
-    font-size: 1.4rem;
-  }
   h7 {
+    text-align: center;
+  }
+  h8 {
     text-align: center;
   }
 }

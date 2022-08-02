@@ -37,6 +37,7 @@ nav {
     color: rgb(100, 134, 120);
     font-family: 'Cormorant', serif;
     font-size: 1.2rem;
+    font-weight: 700;
     transition: 1s;
   }
   
@@ -129,6 +130,19 @@ nav {
     line-height: 1.4rem;
   }
 
+
+  /* Proposal Photo */
+  img {
+    width: 65%;
+    padding-right: 3rem;
+    padding-left: 3rem;
+  }
+
+  .karfer-ring-photo {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
 
   @media only screen and (max-width: 600px) {
     .nav-ul {
