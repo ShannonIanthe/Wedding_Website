@@ -370,7 +370,6 @@ li {
   margin-bottom: 10px;
 }
 
-/* MARGIN FOR CITY SECTIONS */
 
 
 
@@ -404,4 +403,17 @@ li {
   .title-recs {
     font-size: 1.2rem;
   }
+  .product-card {
+    flex: 0 0 auto;
+    width: 150px;
+    height: 250px;
+    margin-right: 20px;
+  }
+  .product-image {
+    position: relative;
+    width: 50%;
+    height: 150px;
+    overflow: hidden;
+  }
+
 }
