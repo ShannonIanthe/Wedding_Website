@@ -122,7 +122,7 @@ footer {
 
 @media only screen and (max-width: 600px) {
   body {
-    background-color: white;
+    height: 100vh;
   }
   .nav-ul {
     gap: .5rem;
@@ -143,7 +143,6 @@ footer {
     align-items: center;
     flex-direction: column;
     gap: .5rem;
-    height: 40vh;
   }
   h2 {
     font-size: 3rem;
@@ -152,7 +151,7 @@ footer {
     font-size: 1.8rem;
     padding-right: 2rem;
     padding-left: 2rem;
-    padding-top: 8rem;
+    padding-top: 6rem;
   }
   .form-name-container {
       display: flex;
