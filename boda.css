@@ -253,22 +253,21 @@ h5 {
 }
 
 
-/* hotel info */
-
-/* PRODUCTS */
+/* HOTEL CARD SLIDER */
 .product {
   position: relative;
   overflow: hidden;
-  padding: 20px;
-
+  padding: 40px;
 }
 
 .product-category {
   padding: 0 10vw;
-  font-size: 30px;
-  font-weight: 500;
+  font-family: 'Cormorant', serif;
+  font-size: 2rem;
+  font-weight: bold;
   margin-bottom: 40px;
   text-transform: capitalize;
+  text-align: center;
 }
 
 .product-container {
@@ -365,7 +364,7 @@ h5 {
   display: flex;
   justify-content: center;
   align-items: center;
-  background: linear-gradient(90deg, rgba(255, 255, 255, 0) 0%, #fff 100%);
+  /* background: linear-gradient(90deg, rgba(255, 255, 255, 0) 0%, #fff 100%); */
   cursor: pointer;
   z-index: 8;
 }
@@ -421,6 +420,8 @@ h5 {
   grid-column: span 2;
   margin-bottom: 10px;
 }
+
+/* MARGIN FOR CITY SECTIONS */
 
 
 
