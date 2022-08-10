@@ -195,6 +195,14 @@ li {
 
 
 /* HOTEL CARD SLIDER */
+.title-recs {
+  text-align: center;
+  font-family: 'Cormorant', serif;
+  font-size: 1.5rem;
+  font-weight: bold;
+  margin-bottom: 40px;
+  text-transform: capitalize;
+}
 .product {
   position: relative;
   overflow: hidden;
@@ -204,7 +212,7 @@ li {
 .product-category {
   padding: 0 10vw;
   font-family: 'Cormorant', serif;
-  font-size: 2rem;
+  font-size: 1rem;
   font-weight: bold;
   margin-bottom: 40px;
   text-transform: capitalize;
@@ -393,14 +401,7 @@ li {
   h8 {
     text-align: center;
   }
-  .product-image {
-    position: relative;
-    width: 50%;
-    height: 175px;
-    overflow: hidden;
-  }
-  .product-brand {
-    font-size: 0.5rem;
-    text-transform: uppercase;
+  .title-recs {
+    font-size: 1.2rem;
   }
 }
