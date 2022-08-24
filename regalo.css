@@ -1,18 +1,17 @@
-@import url('https://fonts.googleapis.com/css2?family=Cormorant:ital,wght@0,300;0,600;0,700;1,300&family=Montserrat:wght@200&family=Roboto:wght@100&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Cormorant:ital,wght@0,300;0,600;0,700;1,300&family=Montserrat:wght@200&family=Roboto:wght@100&display=swap");
 
-*{
-    padding: 0;
-    margin: 0;
-    box-sizing: border-box;
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
 }
 
 body {
-  background-image: url('./images/index_background.png');
+  background-image: url("./images/index_background.png");
   background-size: 100%;
   background-repeat: no-repeat;
   background-position: bottom;
 }
-
 
 /* NAV */
 nav {
@@ -42,7 +41,7 @@ nav {
 .nav-links {
   text-decoration: none;
   color: rgb(100, 134, 120);
-  font-family: 'Cormorant', serif;
+  font-family: "Cormorant", serif;
   font-weight: 700;
   font-size: 1.5rem;
   transition: 1s;
@@ -52,12 +51,11 @@ nav {
   color: rgb(222, 198, 100);
 }
 
-
-/*/*//*/*/
+/*/*/ /*/*/
 
 h1 {
   text-align: center;
-  font-family: 'Cormorant', serif;
+  font-family: "Cormorant", serif;
   font-style: bold;
   font-size: 2.5rem;
   color: rgb(52, 92, 52);
@@ -66,27 +64,26 @@ h1 {
 h2,
 h3 {
   font-size: 1.2rem;
-  font-family: 'Montserrat', sans-serif;
+  font-family: "Montserrat", sans-serif;
 }
 
-p{
+p {
   font-size: 1rem;
-  font-family: 'Montserrat', sans-serif;
+  font-family: "Montserrat", sans-serif;
   font-weight: bolder;
 }
 
 .corte {
   font-size: 1rem;
-  font-family: 'Montserrat', sans-serif;
+  font-family: "Montserrat", sans-serif;
   font-style: italic;
   font-weight: bolder;
 }
 
-
 .p-regalo {
   font-size: 1.1rem;
   font-style: normal;
-  font-family: 'Montserrat', sans-serif;
+  font-family: "Montserrat", sans-serif;
 }
 
 .regalo-line {
@@ -95,36 +92,37 @@ p{
 }
 
 .regalo-container {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: flex-start;
-    /*background-color: rgb(189, 208, 189); */
-    font-family: 'Joan', serif;
-    line-height: 2rem;
-    font-size: 1.2rem;
-    text-align: justify;
-    padding-top: 5rem;
-    height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+  font-family: "Joan", serif;
+  text-align: justify;
+  line-height: 2rem;
+  padding-top: 5rem;
+  height: 100vh;
 }
-
 
 @media only screen and (max-width: 600px) {
   .nav-ul {
-    gap: .5rem;
+    gap: 0.5rem;
   }
   .nav-links {
     font-size: 1.3rem;
-    color: cadetblue;
   }
-    .regalo-container {
-      margin: 0rem 2rem;
-      line-height: 2rem;
-    }
-    p {
-      margin: 0rem 1rem;
-    }
-    img {
-      width: 100%;
-    }
+  .regalo-container {
+    padding-top: .5rem;
+    margin: 0rem 2rem;
+    line-height: 2rem;
   }
+  h2 {
+    font-size: 1rem;
+  }
+  p {
+    font-size: 1rem;
+    margin: 0rem 1rem;
+  }
+  img {
+    width: 100%;
+  }
+}
