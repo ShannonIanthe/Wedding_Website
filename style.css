@@ -7,10 +7,10 @@
 
 /* BODY BACKGROUND */
 body {
-  background: url('./images/regalo-removebg-preview.png') 50%;
+  background: url('./images/regalo-removebg-preview.png') 50%; 
   background-size: 100%;
   background-repeat: no-repeat;
-  height: 100vh;
+  background-position: bottom;
 }
 
 
@@ -123,9 +123,6 @@ footer {
 
 
 @media only screen and (max-width: 600px) {
-  body {
-    height: 130vh;
-  }
   .nav-ul {
     gap: .5rem;
   }
