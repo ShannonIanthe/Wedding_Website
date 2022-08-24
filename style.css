@@ -57,7 +57,7 @@ nav {
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  height: 100vh;
+  height: 98vh;
   padding-bottom: 4.5rem;
 }
 
@@ -116,7 +116,7 @@ h5 {
     align-items:center;
     justify-content:space-evenly;
     padding-bottom: 2.5rem;
-    height: 100vh;
+    height: 70vh;
   }
   .celebrate-quote {
     margin: 4rem 0rem;
