@@ -124,7 +124,7 @@ footer {
 
 @media only screen and (max-width: 600px) {
   body {
-    height: 100vh;
+    height: 130vh;
   }
   .nav-ul {
     gap: .5rem;
