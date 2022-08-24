@@ -85,7 +85,8 @@ img {
 
 
 h2 {
-  font-size: clamp(5rem, 2.5vw, 6rem);
+  font-size: clamp(4rem, 2.5vw, 5rem);
+  padding-top: 2rem;
   color: rgb(100, 134, 120);
   font-family: "Cormorant", serif;
   font-style: italic;

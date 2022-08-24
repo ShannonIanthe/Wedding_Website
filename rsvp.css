@@ -58,13 +58,13 @@ nav {
   
   .rsvp-h1 {
     font-family: 'Cormorant', serif;
-    font-size: 2.3rem;
+    font-size: 2rem;
     text-align: center;
-    padding: 2rem 2rem;
+    padding: 1rem 2rem;
   }
   
   .form {
-    margin: 2rem 2rem;
+    margin: .2rem 2rem;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -98,7 +98,7 @@ nav {
   
   .contact-us {
       display: flex;
-      flex-direction: column;
+      flex-direction: row;
       text-align: center;
       align-items: center;
       justify-content: space-between;
@@ -108,32 +108,35 @@ nav {
   .contact {
     padding-top: 4rem;
   }
-  h5 {
+  h2 {
       font-family: 'Cormorant', serif;
       text-align: center;
-      font-size: 2rem;
+      font-size: 1.4rem;
   }
   
-  h10 {
-    font-size: 1.1rem;
-    font-family: 'Montserrat', sans-serif;
-    font-style: bold;
-  }
-  
-  .contact-us p {
-    font-size: 15px;
+  .contact-us {
+    font-size: 14px;
     font-family: 'Montserrat', sans-serif;
   }
 
   .kar,
   .fer {
+    font-size: 14px;
     line-height: 1.6rem;
+  }
+
+  .kar {
+    text-align: left;
+  }
+
+  .fer {
+    text-align: right;
   }
 
 
   /* Proposal Photo */
   img {
-    width: 65%;
+    width: 20%;
     padding-right: 3rem;
     padding-left: 3rem;
   }
@@ -171,13 +174,25 @@ nav {
     border-bottom: 1px solid black;
     }
     img {
-      width: 100%;
+      width: 70%;
       padding-right: 1rem;
       padding-left: 1rem;
     }
     .rsvp-h1 {
       padding: .5rem 1rem;
     }
+    .contact-us {
+      display: flex;
+      flex-direction: column;
+      text-align: center;
+      align-items: center;
+      justify-content: space-between;
+      padding: 2rem;
+  }
+  .kar,
+  .fer {
+    text-align: center;
+  }
 
 }
   
