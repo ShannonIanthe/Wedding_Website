@@ -109,16 +109,6 @@ h5 {
   font-style: italic;
 }
 
-footer {
-  display: flex;
-  justify-content: space-between;
-  background-color: rgb(116, 169, 116);
-}
-
-.shannon a {
-  text-decoration: none;
-  color: #000;
-}
 
 @media only screen and (max-width: 600px) {
   .hero {
@@ -129,14 +119,13 @@ footer {
     height: 100vh;
   }
   .celebrate-quote {
-    margin: 3rem 0rem;
+    margin: 4rem 0rem;
   }
   .nav-ul {
     gap: 0.5rem;
   }
   .nav-links {
     font-size: 1.3rem;
-    color: cadetblue;
   }
   h2 {
     font-size: 2.3rem;
@@ -152,6 +141,7 @@ footer {
   }
   .hero-photo {
     padding: 0rem;
+    padding-bottom: 1rem;
   }
   img {
     height: 80%;
