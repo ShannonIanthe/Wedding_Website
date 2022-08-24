@@ -7,10 +7,11 @@
 
 /* BODY BACKGROUND */
 body {
-  background: url('./images/regalo-removebg-preview.png') 50%; 
+  background: url('./images/index_background.png') 100% ; 
   background-size: 100%;
   background-repeat: no-repeat;
   background-position: bottom;
+  height: 100vh;
 }
 
 
@@ -44,7 +45,7 @@ nav {
   color: rgb(100, 134, 120);
   font-family: 'Cormorant', serif;
   font-weight: 700;
-  font-size: 1.2rem;
+  font-size: 1.5rem;
   transition: 1s;
 }
 
@@ -60,14 +61,25 @@ nav {
   justify-content: center;
 }
 
+.hero {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding-top: 3rem;
+  gap: 1rem;
+}
+
 .hero-photo {
   display: flex;
   align-items: center;
   justify-content: center;
+  padding: 2rem;
 }
 
 img {
   border-radius: 15px;
+  height: 100%;
 }
 
 
@@ -78,6 +90,7 @@ img {
   flex-direction: column;
   justify-content: center;
   align-items: center;
+  padding-top: 1rem;
 }
 
 h2 {
@@ -90,7 +103,7 @@ h2 {
 
 h3,
 h4 {
-  color: rgb(247, 194, 102);
+  color: rgb(67, 67, 67);
   letter-spacing: 1px;
   font-family: 'Montserrat', sans-serif;
   text-align: center;

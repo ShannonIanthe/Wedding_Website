@@ -6,6 +6,13 @@
     box-sizing: border-box;
 }
 
+body {
+  background-image: url('./images/index_background.png');
+  background-size: 100%;
+  background-repeat: no-repeat;
+  background-position: bottom;
+}
+
 
 /* NAV */
 nav {
@@ -37,7 +44,7 @@ nav {
   color: rgb(100, 134, 120);
   font-family: 'Cormorant', serif;
   font-weight: 700;
-  font-size: 1.2rem;
+  font-size: 1.5rem;
   transition: 1s;
 }
 
@@ -45,9 +52,10 @@ nav {
   color: rgb(222, 198, 100);
 }
 
+
 /*/*//*/*/
 
-h9 {
+h1 {
   text-align: center;
   font-family: 'Cormorant', serif;
   font-style: bold;
@@ -55,10 +63,10 @@ h9 {
   color: rgb(52, 92, 52);
 }
 
-h11{
+h2,
+h3 {
   font-size: 1.2rem;
   font-family: 'Montserrat', sans-serif;
-  font-weight: bold;
 }
 
 p{
@@ -74,7 +82,7 @@ p{
   font-weight: bolder;
 }
 
-.h10-regalo,
+
 .p-regalo {
   font-size: 1.1rem;
   font-style: normal;
@@ -90,19 +98,16 @@ p{
     display: flex;
     flex-direction: column;
     align-items: center;
-    justify-content: center;
-    padding: 2rem 2rem;
-    margin: 2rem 4rem;
-    background-color: rgb(189, 208, 189);
+    justify-content: flex-start;
+    /*background-color: rgb(189, 208, 189); */
     font-family: 'Joan', serif;
     line-height: 2rem;
     font-size: 1.2rem;
     text-align: justify;
+    padding-top: 5rem;
+    height: 100vh;
 }
 
-.inbtwn {
-  width: 100%;
-}
 
 @media only screen and (max-width: 600px) {
   .nav-ul {
@@ -113,8 +118,11 @@ p{
     color: cadetblue;
   }
     .regalo-container {
-      margin: 1rem 2rem;
+      margin: 0rem 2rem;
       line-height: 2rem;
+    }
+    p {
+      margin: 0rem 1rem;
     }
     img {
       width: 100%;
