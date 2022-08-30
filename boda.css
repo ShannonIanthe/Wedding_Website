@@ -161,6 +161,10 @@ iframe {
   width: 70%;
 }
 
+.accordion-item h2 {
+  font-family: "Montserrat", sans-serif;
+}
+
 .trans-ul {
   padding: 1rem 2rem;
 }
@@ -300,6 +304,9 @@ li {
 .product-brand {
   font-size: 1rem;
   text-transform: uppercase;
+  font-family: 'Cormorant', serif;
+  font-weight: bolder;
+  text-align: center;
 }
 
 .product-short-description {
