@@ -80,10 +80,19 @@ nav {
 
 }
 
-h7 {
+.date,
+.place {
+  text-align: center;
   font-family: "Montserrat", sans-serif;
   font-weight: 700;
-  font-size: 1.2rem;
+  font-size: 1rem;
+}
+
+h2 {
+  text-align: center;
+  font-family: "Montserrat", sans-serif;
+  font-weight: 700;
+  font-size: 1rem;
 }
 
 .flower-bg {
@@ -122,6 +131,7 @@ h7 {
 .p {
   font-size: 1.8rem;
   font-family: 'Cormorant', serif;
+  text-align: center;
 }
 
 p {
@@ -171,7 +181,7 @@ iframe {
 }
 
 
-h8 {
+h3 {
     text-align: center;
     padding-top: 2rem;
     font-size: 1.7rem;
@@ -400,8 +410,12 @@ li {
   h8 {
     text-align: center;
   }
+  .date,
+.place {
+  font-size: .8rem;
+}
   .title-recs {
-    font-size: 1.2rem;
+    font-size: 1.4rem;
   }
   .product-card {
     flex: 0 0 auto;
