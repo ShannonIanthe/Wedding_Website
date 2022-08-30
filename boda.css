@@ -88,12 +88,6 @@ nav {
   font-size: 1rem;
 }
 
-h2 {
-  text-align: center;
-  font-family: "Montserrat", sans-serif;
-  font-weight: 700;
-  font-size: 1rem;
-}
 
 .flower-bg {
   height: 5rem;
@@ -195,6 +189,7 @@ h3 {
 
 li {
   padding: 5px;
+  font-family: "Montserrat", sans-serif;
 }
 
 /* RECOMENDACIONES */
@@ -222,7 +217,7 @@ li {
 .product-category {
   padding: 0 10vw;
   font-family: 'Cormorant', serif;
-  font-size: 1rem;
+  font-size: 1.4rem;
   font-weight: bold;
   margin-bottom: 40px;
   text-transform: capitalize;
@@ -380,7 +375,16 @@ li {
   margin-bottom: 10px;
 }
 
+/* website creator */
+.website-creator h5{
+  text-align: right;
+  font-size: 12px;
+  font-family: "Montserrat", sans-serif;
+}
 
+.website-creator a{
+  text-decoration: none;
+}
 
 
 
@@ -407,9 +411,6 @@ li {
   h7 {
     text-align: center;
   }
-  h8 {
-    text-align: center;
-  }
   .date,
 .place {
   font-size: .8rem;
@@ -419,14 +420,14 @@ li {
   }
   .product-card {
     flex: 0 0 auto;
-    width: 150px;
-    height: 250px;
+    width: 200px;
+    height: 300px;
     margin-right: 20px;
   }
   .product-image {
     position: relative;
-    width: 50%;
-    height: 150px;
+    width: 80%;
+    height: 250px;
     overflow: hidden;
   }
 
