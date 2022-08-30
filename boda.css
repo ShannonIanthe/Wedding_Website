@@ -249,6 +249,16 @@ li {
   overflow: hidden;
 }
 
+.product-image a {
+  text-decoration: none;
+  color: rgb(37, 37, 37);
+}
+
+.product-image a:hover {
+  text-decoration: none;
+  color: rgb(37, 37, 37);
+}
+
 .product-thumb {
   width: 100%;
   height: 100%;
