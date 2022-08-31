@@ -101,7 +101,7 @@ nav {
       flex-direction: row;
       text-align: center;
       align-items: center;
-      justify-content: space-between;
+      justify-content: space-around;
       padding: 2rem;
   }
   
@@ -156,15 +156,6 @@ nav {
     color: rgb(100, 134, 120);
   }
 
-  @media only screen 
-  and (max-device-width: 800px) 
-  and (-webkit-min-device-pixel-ratio: 1) {
-    img {
-      width: 80%;
-      padding-right: 1rem;
-      padding-left: 1rem;
-    }
-}
 
   @media only screen and (max-width: 600px) {
     .nav-ul {
