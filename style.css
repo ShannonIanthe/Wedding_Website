@@ -115,6 +115,9 @@ h5 {
 
 
 @media only screen and (max-width: 600px) {
+.height {
+  height: fit-content;
+}
   .hero {
     display: flex;
     align-items: flex-start;
@@ -147,7 +150,7 @@ h5 {
   }
   img {
     height: 80%;
-    width: 100%;
+    width: 80%;
     padding: 2rem 2rem;
   }
 }
