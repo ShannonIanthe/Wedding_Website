@@ -11,6 +11,7 @@ body {
   background-size: 100%;
   background-repeat: no-repeat;
   background-position: bottom;
+  height: 100vh;
 }
 
 /* NAV */
@@ -109,7 +110,6 @@ p {
   text-align: center;
   line-height: 2rem;
   padding-top: 5rem;
-  height: 100vh;
 }
 
 .blurred-bg {
