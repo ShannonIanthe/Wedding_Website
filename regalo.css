@@ -132,11 +132,17 @@ p {
   h2 {
     font-size: 1rem;
   }
+  h3 {
+    font-size: 1rem;
+  }
   p {
     font-size: 1rem;
     margin: 0rem 1rem;
   }
   img {
     width: 100%;
+  }
+  .regalo-container {
+    padding-top: 2rem;
   }
 }
