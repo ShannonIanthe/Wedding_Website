@@ -11,11 +11,9 @@ body {
   background-size: 100%;
   background-repeat: no-repeat;
   background-position: bottom;
+  height: 100vh;
 }
 
-.height {
-  height: 100%;
-}
 
 /* NAV */
 nav {
