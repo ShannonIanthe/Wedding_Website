@@ -102,6 +102,11 @@ nav {
       font-style: bold;
       font-weight: 600;
       cursor: pointer;
+      transition: 3s;
+    }
+
+    .button1:hover {
+      background-color: rgb(79, 120, 86);
     }
   
   .contact-us {
@@ -202,8 +207,10 @@ nav {
   .fer {
     text-align: center;
   }
-  .form-message-container {
-    padding: .2rem 2rem;
+  textarea {
+    height: 5rem;
+    width: 12rem;
+    margin: 0rem;
   }
 
 }
