@@ -59,7 +59,7 @@ nav {
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  padding-bottom: 4.5rem;
+  padding-top: 3rem; 
 }
 
 .celebrate-quote {
@@ -77,9 +77,8 @@ nav {
 }
 
 img {
-  border-radius: 12px;
+  border-radius: 2rem;
   height: 20rem;
-
 }
 
 /*/*/
@@ -87,7 +86,7 @@ img {
 
 h2 {
   font-size: clamp(4rem, 2.5vw, 5rem);
-  padding-top: 2rem;
+  padding-top: 1rem;
   color: rgb(100, 134, 120);
   font-family: "Cormorant", serif;
   font-style: italic;
@@ -95,30 +94,44 @@ h2 {
 
 h3,
 h4 {
-  color: rgb(67, 67, 67);
+  color: rgb(6, 6, 6);
   letter-spacing: 1px;
   font-family: "Montserrat", sans-serif;
   text-align: center;
-  font-size: 1rem;
+  font-size: 1.2rem;
 }
 
 h5 {
   text-align: center;
   font-size: 2rem;
   font-weight: 800;
-  color: rgb(40, 57, 50);
+  color: rgb(100, 134, 120);
   font-family: "Cormorant", serif;
   font-style: italic;
 }
 
+p {
+  color: rgb(0, 0, 0);
+  letter-spacing: .6px;
+  line-height: 1.4rem;
+  font-family: "Montserrat", sans-serif;
+  text-align: center;
+  font-size: 1rem;
+  margin: 0rem .4rem;
+}
+
+.date {
+  background-color: rgba(247, 247, 247, 0.438);
+  border-radius: 1rem;
+  padding: 1rem 1rem;
+}
+
 
 @media only screen and (max-width: 600px) {
-.height {
-  height: fit-content;
-}
   .hero {
     display: flex;
     align-items: flex-start;
+    padding-top: 0rem;
   }
   .celebrate-quote {
     margin: .1rem 0rem;
@@ -131,24 +144,38 @@ h5 {
   }
   h2 {
     font-size: 2.3rem;
-    padding-top: 1rem;
-    padding-bottom: .2rem;
+    padding-top: 0rem;
+    padding-bottom: .3rem;
   }
   h3,
   h4 {
-    font-size: 0.9rem;
+    font-size: .7rem;
   }
   h5 {
     font-size: 1.3rem;
     padding: 0rem .2rem;
+    margin: 0rem 1rem;
   }
   .hero-photo {
     padding: 0rem;
     text-align: center;
   }
+  p {
+    color: rgb(0, 0, 0);
+    letter-spacing: .2px;
+    line-height: 1rem;
+    font-family: "Montserrat", sans-serif;
+    text-align: center;
+    font-size: .6rem;
+    margin: 0rem .6rem;
+  }
+
   img {
     height: 80%;
     width: 80%;
-    padding: 2rem 2rem;
+    padding: 1rem 2rem;
+  }
+  .date {
+    padding: .5rem .3rem;
   }
 }
