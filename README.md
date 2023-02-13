@@ -28,9 +28,8 @@
 ![Screen Shot 2023-02-13 at 1 25 57 PM](https://user-images.githubusercontent.com/61018008/218457247-67ef9afa-ac54-4858-adca-00d2a4e4be6c.png)
 
 <h3>Mobile View</h3>
-![Screen Shot 2023-02-13 at 6 37 56 AM](https://user-images.githubusercontent.com/61018008/218456798-897053ff-6a67-44b8-9303-26642ff9a10f.png)
-![Screen Shot 2023-02-13 at 12 40 22 PM](https://user-images.githubusercontent.com/61018008/218448969-6c0d0236-7a04-4ef7-9190-96c5a6960196.png)
-![Screen Shot 2023-02-13 at 12 40 35 PM](https://user-images.githubusercontent.com/61018008/218448986-562ade3c-016f-48e8-84b7-848d54e350a4.png)
+![Screen Shot 2023-02-13 at 6 37 56 AM](https://user-images.githubusercontent.com/61018008/218457627-76607986-58d3-4e7c-acf9-186081c642e5.png)
+![Screen Shot 2023-02-13 at 1 27 43 PM](https://user-images.githubusercontent.com/61018008/218457655-bd8f9a22-32e5-433f-9263-60444e265630.png)
 
 
 <!-- ABOUT THE PROJECT -->
