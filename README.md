@@ -8,7 +8,7 @@
   <h3 align="center">Wedding Invitation Website</h3>
 
   <p align="center">
-    An awesome website that presents my projects!
+    Wedding Invitation Website for one of my client's
     <br />
     <a href="https://oliviaymarcos.netlify.app/">View Demo</a>
   </p>
@@ -41,10 +41,10 @@ Front End Developer Portfolio Website
 
 UX / UI Design:
 * Original Design
-* Aesthetic: modern, simple, four colors
-- ![#FFFFFF](https://placehold.co/15x15/FFFFFF/FFFFFF.png) `#FFFFFF`
-- ![#124D61](https://placehold.co/15x15/124D61/124D61.png) `#124D61`
-- ![#d57a89](https://placehold.co/15x15/d57a89/d57a89.png) `#d57a89`
+* Aesthetic: elegant, earthy, flowery
+- ![#648678](https://placehold.co/15x15/648678/648678.png) `#648678`
+- ![#f0f0f1](https://placehold.co/15x15/f0f0f1/f0f0f1.png) `#f0f0f1`
+- ![#dec664](https://placehold.co/15x15/dec664/dec664.png) `#dec664`
 - ![#A9A9A9](https://placehold.co/15x15/A9A9A9/A9A9A9.png) `#A9A9A9`
 * Simple fonts with different weights for Desktop and mobile version
 
@@ -58,7 +58,8 @@ Font-Family from Google Fonts:
 
 * HTML
 * CSS
-* Host: Vercel
+* JavaScript
+* Host: Netlify
 
 
 
