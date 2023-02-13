@@ -48,9 +48,9 @@ UX / UI Design:
 - ![#A9A9A9](https://placehold.co/15x15/A9A9A9/A9A9A9.png) `#A9A9A9`
 * Simple fonts with different weights for Desktop and mobile version
 
-Font-Family from Google Fonts: 
-* "Abril Fatface", cursive;
-* "Lato", sans-serif
+2 Main Fonts from Google Fonts: 
+* "Montserrat", sans-serif;
+* 'Cormorant', serif;
 
 
 
@@ -61,7 +61,16 @@ Font-Family from Google Fonts:
 * JavaScript
 * Host: Netlify
 
+## What did I learn:
+* A project of this magnitude would have best been replicated with a library such as React
+* I could have benefited from using a CSS preprocessor such as SASS or LESS to save time
 
+## What problem does it solve?
+* Name, Number of guests, and Message go directly to Client's email
+* Complete Unique and Onen of a kind website Design
+
+## What makes your project stand out?
+* The simple photo and font animation when you open the page
 
 
 <!-- CONTACT -->
@@ -69,9 +78,9 @@ Font-Family from Google Fonts:
 
 Linkedin: <a href="https://www.linkedin.com/in/shannon-mettry/">Shannon Mettry</a>
 
-<a href="https://github.com/ShannonIanthe/Portfolio"> Source Code </a>
+<a href="[https://github.com/ShannonIanthe/Portfolio](https://github.com/ShannonIanthe/Wedding_Website)"> Source Code </a>
 
-<a href="https://shannon-mettry.vercel.app/">Website Link</a>
+<a href="[https://shannon-mettry.vercel.app/](https://oliviaymarcos.netlify.app/index.html)">Website Link</a>
 
 
 
