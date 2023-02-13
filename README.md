@@ -23,13 +23,16 @@
 <h3>Desktop View</h3>
 
 ![wedding](https://user-images.githubusercontent.com/61018008/218456914-1356cb91-ebf0-48cb-a670-c962ca060b7a.png)
+## Regalo Page - with Arrival Details and Address
 ![Screen Shot 2023-02-13 at 1 25 31 PM](https://user-images.githubusercontent.com/61018008/218457193-25d8ab18-b15a-4cae-a233-179af1f2528b.png)
+## Regalo Page - Accordion with Arrival Details for out of the international guests
 ![Screen Shot 2023-02-13 at 1 25 42 PM](https://user-images.githubusercontent.com/61018008/218457209-c9940baf-3370-477e-b7df-42a850616e77.png)
+## RSVP Page - with Form Submit to add the name, number of guests, and a message
 ![Screen Shot 2023-02-13 at 1 25 57 PM](https://user-images.githubusercontent.com/61018008/218457247-67ef9afa-ac54-4858-adca-00d2a4e4be6c.png)
 
-<h3>Mobile View</h3>
-![Screen Shot 2023-02-13 at 6 37 56 AM](https://user-images.githubusercontent.com/61018008/218457627-76607986-58d3-4e7c-acf9-186081c642e5.png)
-![Screen Shot 2023-02-13 at 1 27 43 PM](https://user-images.githubusercontent.com/61018008/218457655-bd8f9a22-32e5-433f-9263-60444e265630.png)
+## Mobile View
+![mobile1](https://user-images.githubusercontent.com/61018008/218458343-6e9bbae9-9ed1-4d40-b797-03cd132f05f4.png)<br>
+![mobile2](https://user-images.githubusercontent.com/61018008/218458347-fe002482-4455-409b-bccc-4e2ab429c093.png)
 
 
 <!-- ABOUT THE PROJECT -->
