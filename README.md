@@ -2,7 +2,7 @@
 <!-- PROJECT-->
 <br />
 <div align="center">
-  <a href="https://oliviaymarcos.netlify.app/">
+  <a href="https://oliviaymarcos.netlify.app/"  target="_blank">
   </a>
 
   <h3 align="center">Wedding Invitation Website</h3>
@@ -10,7 +10,7 @@
   <p align="center">
     Wedding Invitation Website for one of my client's
     <br />
-    <a href="https://oliviaymarcos.netlify.app/">View Demo</a>
+    <a href="https://oliviaymarcos.netlify.app/"  target="_blank">View Demo</a>
   </p>
 </div>
 
@@ -76,11 +76,11 @@ UX / UI Design:
 <!-- CONTACT -->
 ## Contact
 
-Linkedin: <a href="https://www.linkedin.com/in/shannon-mettry/">Shannon Mettry</a>
+Linkedin: <a href="https://www.linkedin.com/in/shannon-mettry/"  target="_blank">Shannon Mettry</a>
 
-<a href="[https://github.com/ShannonIanthe/Portfolio](https://github.com/ShannonIanthe/Wedding_Website)"> Source Code </a>
+<a href="[https://github.com/ShannonIanthe/Portfolio](https://github.com/ShannonIanthe/Wedding_Website)"  target="_blank"> Source Code </a>
 
-<a href="[https://shannon-mettry.vercel.app/](https://oliviaymarcos.netlify.app/index.html)">Website Link</a>
+<a href="[https://shannon-mettry.vercel.app/](https://oliviaymarcos.netlify.app/index.html)"  target="_blank">Website Link</a>
 
 
 
